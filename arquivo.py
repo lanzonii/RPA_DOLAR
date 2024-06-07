@@ -18,10 +18,10 @@ cotacao = float(valor.replace(',', '.'))
 
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
-    dbname="dbcotacoes",
-    user="postgres",
-    password="1234",
-    host="localhost"
+    dbname="db_cotacao",
+    user="avnadmin",
+    password="AVNS_h-Wx6WtyD8XkaDsTgo7",
+    host="database-cultiville.e.aivencloud.com"
 )
 
 # Create a cursor
